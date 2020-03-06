@@ -95,8 +95,8 @@ snippet local "local x = 1"
 local ${1:x} = ${0:1}
 endsnippet
 
-snippet localr "local x = require('x')"
-local ${1:x} = require('${2:1}')$0
+snippet localr "local x = require('x')" b
+local ${1:x} = require('${2:$1}')$0
 endsnippet
 
 # vim:ft=snippets:
